@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Joseph Anand Kumar </title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<style>
+		.image-grid {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 10px;
+			margin-top: 1rem;
+		}
+		.image-grid img, .video-grid video {
+			width: 100%;
+			height: auto;
+			border-radius: 6px;
+		}
+		.center-image {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+			border-radius: 8px;
+			margin-top: 2rem;
+		}
+		.button-container {
+			margin-top: 2rem;
+			text-align: center;
+		}
+		.details {
+			display: none;
+			margin-top: 1rem;
+		}
+		.toggle-button {
+			margin-top: 1rem;
+			background-color: #007acc;
+			color: white;
+			border: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+	<div id="wrapper">
+		<header id="header">
+			<div class="content">
+				<div class="inner">
+					<h1>Joseph Anand Kumar</h1>
+					<p>Aspiring Software Engineer | B.Tech in CSE | Passionate about Data Science, Full-Stack Development & Cybersecurity</p>
+					<ul class="icons">
+						<li><a href="mailto:josephanand3107@gmail.com" class="icon solid fa-envelope" title="Email"><span>Email</span></a></li>
+						<li><a href="https://linkedin.com/in/joseph-anand-564043312" target="_blank" class="icon brands fa-linkedin" title="LinkedIn"><span>LinkedIn</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#intro">Intro</a></li>
+					<li><a href="#portfolio">Projects</a></li>
+					<li><a href="#resumeCV">Resume</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="main">
+			<article id="intro">
+				<h1 class="major">About Me</h1>
+				<p>
+					I'm an enthusiastic Computer Science undergraduate at Vignan’s University with a strong foundation in programming, data structures, and software development. I thrive in collaborative environments and love solving real-world problems using innovative technologies. With hands-on experience in full-stack development, data analytics, and cybersecurity, I aim to contribute to impactful projects while continuously expanding my technical expertise.
+				</p>
+				<p>
+					Driven by curiosity and ambition, I have worked on diverse projects, achieved industry-recognized certifications, and consistently pushed my learning boundaries. I’m eager to join a forward-thinking company where I can apply my skills and grow professionally.
+				</p>
+			</article>
+
+			<article id="portfolio">
+				<h1 class="major">Projects</h1>
+				<h2 style="text-align:center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:22px; color:white;">• Predicting Restaurant Ratings (Regression Analysis)</h2>
+<div style="text-align:center;">
+  <button class="toggle-button" onclick="toggleDetails('restaurant-details')">View Overview</button>
+</div>
+<div class="details" id="restaurant-details" style="text-align:center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; animation: fadeIn 0.6s ease-in-out;">
+	<img src="images/1099.jpg" alt="Restaurant Ratings Visualization" class="center-image">
+	<p style="max-width: 800px; margin: 0 auto;">
+		This project focuses on predicting restaurant ratings using multiple regression models like Random Forest, XGBoost, and AdaBoost based on key business attributes such as location, cost, online ordering, and cuisine type. The dataset includes over 43,000 restaurants from Bengaluru and was sourced from Kaggle.
+	</p>
+	<ul style="max-width: 800px; margin: 1rem auto; text-align:left;">
+		<li>Compared seven machine learning models for accuracy (RMSE, MAPE, R²)</li>
+		<li>Implemented using Python, Scikit-learn, Pandas, Seaborn, and Jupyter Notebook</li>
+		<li>Helped identify key factors affecting customer ratings and business success</li>
+	</ul>
+	<div class="image-grid" style="max-width:900px; margin: 0 auto;">
+		<img src="images/1.PNG" alt="Regression Results Before Tuning">
+		<img src="images/2.PNG" alt="Regression Results After Tuning">
+		<img src="images/3.PNG" alt="True vs Predicted Graph">
+	</div>
+	<div class="button-container">
+		<a href="images/IDP.pdf" target="_blank" class="button primary">View Full Published Paper</a>
+		
+	</div>
+</div>
+
+<h2 style="text-align:center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size:22px; color:white;">• Summer Semester Backlog System</h2>
+<div style="text-align:center;">
+  <button class="toggle-button" onclick="toggleDetails('backlog-details')">View Overview</button>
+</div>
+<div class="details" id="backlog-details" style="text-align:center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; animation: fadeIn 0.6s ease-in-out;">
+	<img src="images/08.jpeg" alt="Backlog System Screenshot" class="center-image">
+	<p style="max-width: 800px; margin: 0 auto;">
+		A full-stack application designed to help students monitor academic backlogs and predict their clearance probability. The system uses Spring Boot, MySQL, React, and Python analytics to deliver real-time updates and predictive insights.
+	</p>
+	<ul style="max-width: 800px; margin: 1rem auto; text-align:left;">
+		<li>Used regression to forecast backlog resolution chances</li>
+		<li>Implemented user dashboards, notifications, and authentication</li>
+		<li>Deployed using Heroku; scalable and accessible</li>
+	</ul>
+	<div class="video-grid" style="margin-top: 2rem; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; max-width:900px; margin: 2rem auto;">
+		<video src="images/09.mp4" controls style="width:100%; height:auto;"></video>
+	</div>
+</div>
+
+<style>
+  .toggle-button {
+    margin-top: 1rem;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  .toggle-button:hover {
+    background-color: #16213e;
+  }
+  .details {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+
+<script>
+  function toggleDetails(id) {
+    const section = document.getElementById(id);
+    section.style.display = section.style.display === 'block' ? 'none' : 'block';
+  }
+</script>
+
+
+			</article>
+
+			<article id="resumeCV">
+				<h1 class="major">Resume</h1>
+
+				<h2>🎓 Education</h2>
+				<ul>
+					<li><b>B.Tech in Computer Science & Engineering</b>, Vignan’s University (2022–Present), CGP: 7.75</li>
+					<li><b>HSC</b>, Sri Chaitanya Junior College (2020–2022), CPI: 8.9</li>
+					<li><b>SSC</b>, Montessori English Medium School (2019–2020), CPI: 9.5</li>
+				</ul>
+
+				<h2>📜 Certifications</h2>
+				<ul>
+					<li>Cambridge Preliminary English Test – 2023</li>
+					<li>CCNA Series – Introduction, Switching, Routing, Automation</li>
+					<li>Python Essentials 1 & 2 (Cisco Networking Academy)</li>
+					<li>Introduction to Cybersecurity (Cisco)</li>
+					<li>TCS iON Career Edge – Young Professional Program</li>
+					<li>Fundamentals of Information Security</li>
+				</ul>
+
+				<h2>🛠️ Technical Skills</h2>
+				<ul>
+					<li><b>Languages:</b> Python, C, Java, HTML, CSS, JavaScript (Basic)</li>
+					<li><b>Frameworks & Tools:</b> Spring Boot, React, Hibernate, Maven</li>
+					<li><b>Database:</b> MySQL, SQL queries, basic data modeling</li>
+					<li><b>Data Analytics:</b> Pandas, Matplotlib, Seaborn, Scikit-learn</li>
+					<li><b>Platforms:</b> Heroku, Git, GitHub</li>
+					<li><b>Soft Skills:</b> Communication, teamwork, adaptability, problem-solving</li>
+				</ul>
+			</article>
+		</div>
+
+		<footer id="footer">
+			<p>Contact me at <a href="mailto:josephanand3107@gmail.com">josephanand3107@gmail.com</a></p>
+		</footer>
+	</div>
+
+	<div id="bg"></div>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script>
+		function toggleDetails(id) {
+			const section = document.getElementById(id);
+			section.style.display = section.style.display === 'block' ? 'none' : 'block';
+		}
+	</script>
+</body>
+</html>
