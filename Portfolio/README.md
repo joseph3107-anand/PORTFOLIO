@@ -1,7 +1,7 @@
 # Main Portfolio
   My main portfolio website that I will be updating often to include most recent projects, up-to-date resume information, and sending to potential employers.
   <br>
-  https://boxnbeeson.github.io/Portfolio/
+  https://joseph3107-anand.github.io/Portfolio/
 
   ## Table of Contents
   * [Demo](#demo)
@@ -17,9 +17,9 @@
   <br>
   Name: Jacob Beeson
   <br>
-  [Github](https://github.com/boxnbeeson)
+  [Github](https://github.com/joseph3107-anand)
   <br>
-  Email: <boxnbeeson@gmail.com>
+  Email: <josephanand3107@gmail.com>
 
   ## <a name="credentials"></a>Credentials
   Template downloaded and used under the CCA license from https://html5up.net/
